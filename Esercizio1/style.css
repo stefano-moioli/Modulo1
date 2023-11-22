@@ -72,6 +72,7 @@ body {
 .main-body figure{
 
     margin-left: 0;
+    width: 100%;
 
 }
 .main-body img {
@@ -104,5 +105,25 @@ body {
 }
 
 .ingredients {
+    width: 100%;
     border-bottom: 1px;
+}
+
+.ingredients h3{
+    padding-bottom: 15px;
+    border-bottom: 3px solid #eefbfb;
+}
+
+.method h3{
+    margin-top: 20px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #eefbfb;
+}
+
+.method .child{
+   font-weight: bold;
+}
+
+.child1 {
+    padding-left: 25px;
 }
