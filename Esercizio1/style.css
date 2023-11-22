@@ -66,6 +66,8 @@ body {
 .sub-body {
 
     width: 50%;
+    max-width: 600px;
+    min-width: 600px;
 
 }
 
