@@ -114,6 +114,12 @@ body {
     border-bottom: 3px solid #eefbfb;
 }
 
+.ingredients ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
 .method h3{
     margin-top: 20px;
     padding-bottom: 15px;
@@ -126,4 +132,8 @@ body {
 
 .child1 {
     padding-left: 25px;
+}
+
+.method a{
+    color: #127878;
 }
