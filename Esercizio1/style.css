@@ -32,5 +32,13 @@ body {
     margin-top: 10px;
     width: 100%;
     text-align: center;
+    color: #107777;
+    border-top: 1px solid #fee8af;
 
+}
+
+.title{
+    margin-top: 55px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.827);
 }
