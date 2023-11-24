@@ -24,7 +24,7 @@ body {
     align-items: center;
 }
 
-.itemMenu{
+.navMenu p{
     padding-left: 20px;
 }
 
@@ -39,4 +39,12 @@ body {
     height: 20px;
     font-size: smaller;
     width: 100%;
+}
+
+.holidayGift{
+    width: 100%;
+    height: 150px;
+    background-color: greenyellow;
+    color: white;
+    text-align: center;
 }
