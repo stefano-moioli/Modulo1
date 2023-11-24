@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #eaeded;
 }
 
@@ -14,6 +14,12 @@ body {
 .logoContainer{
     height: 35px;
     background-color: #222f3e;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+.logoAmazon{
+    height: 100%;
 }
 
 .navMenu{
@@ -60,7 +66,7 @@ body {
     display: flex;
     align-items: center;
     padding-left: 10px;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 
 .fourGifts a{
@@ -73,12 +79,13 @@ body {
     background-color: white;
     height: 350px;
     margin-bottom: 25px;
+    align-items: center;
 }
 
 .imgGift{
     height: 300px;
     width: 300px;
     border: solid 5px black;
-    margin: 10px;
+    margin: 5px;
     border-radius: 10%;
 }
