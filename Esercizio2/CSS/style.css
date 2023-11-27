@@ -14,8 +14,9 @@ body {
 .logoContainer{
     height: 35px;
     background-color: #222f3e;
-    padding-top: 5px;
-    padding-left: 15px;
+    padding-top: 7px;
+    padding-left: 25px;
+    padding-bottom: 7px;
 }
 
 .logoAmazon{
@@ -29,14 +30,20 @@ body {
     font-size: 70%;
     color: white;
     align-items: center;
+    padding-left: 15px;
 }
 
-.navMenu p{
-    padding-left: 20px;
+.navMenu ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    margin-left: 15px;
+
 }
 
 .mainBody{
-    margin: 15px;
+    margin: 30px;
 }
 
 .shopGiftCards{
@@ -48,16 +55,21 @@ body {
     width: 100%;
 }
 
+.shopGiftCards p{
+    padding: 2px;
+}
+
 .holidayGift{
+    background-image: url("/Esercizio2/img/bg-image.png");
+    background-repeat: repeat;
     width: 100%;
     height: 150px;
-    background-color: #2f6e60;
     color: white;
-    text-align: center;    
+    text-align: center;  
 }
 
 .holidayGift h1{
-    padding-top: 40px;
+    padding-top: 45px;
     font-size: large;
 }
 
@@ -69,11 +81,16 @@ body {
     margin-top: 10px;
 }
 
+a{
+    font-size: small;
+    text-decoration: none;
+}
+
 .fourGifts a{
     padding-left: 15px;
 }
 
-.imgGiftFather{
+.productsContainer{
     display: flex;
     justify-content: space-between;
     background-color: white;
@@ -82,10 +99,55 @@ body {
     align-items: center;
 }
 
-.imgGift{
-    height: 300px;
+.productsContainer img{
+    height: 340px;
     width: 300px;
-    border: solid 5px black;
+    min-width: 300px;
+    object-fit: cover;
     margin: 5px;
     border-radius: 10%;
 }
+
+.giftingGame{
+    width: 100%;
+}
+
+.giftingGame img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.giftingGame p{
+    text-align: center;
+    margin-top: 0px;
+}
+
+.giftingGame a{
+    padding-left: 15px;
+}
+
+.backToTop{
+    height: 50px;
+    background-color: #354758;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoFooter{
+    background-color: #222f3e;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoFooter img{
+    object-fit: cover;
+    height: 40px;
+    width: 140px;
+   }
+
+
