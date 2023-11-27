@@ -99,12 +99,11 @@ a{
 .productsContainer{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     gap: 2px;
     background-color: white;
     height: 350px;
+    justify-content: space-around;
     margin-bottom: 25px;
-    align-items: center;
 }
 
 .productsContainer img{
@@ -145,6 +144,11 @@ a{
     align-items: center;
 }
 
+.backToTop a{
+    color: white;
+    text-decoration: underline;
+}
+
 .logoFooter{
     background-color: #222f3e;
     height: 150px;
@@ -167,8 +171,8 @@ a{
    .fourProducts{
     display: flex;
     flex-direction: column;
-    height: 370px;
-    width: 320px;
+    height: 25%;
+    width: 25%;
     background-color: white;
    }
 
@@ -181,13 +185,13 @@ a{
    flex-wrap: wrap;
    align-items: center;
    justify-content: center;
-   gap: 5px;
+   gap: 20px;
    margin-bottom: 15px;
    }
 
    .productImageFour{
-    height: 120px;
-    width: 135px;
+    height: 40%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -195,6 +199,7 @@ a{
 
   .fourProductsTitle{
     font-size: smaller;
+    margin-top: 10px;
   }
 
    .productImageFour img{
