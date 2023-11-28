@@ -1,0 +1,10 @@
+body{
+
+}
+
+.card{
+    height: 300px;
+    width: 200px;
+    border: solid 2px black;
+    position: relative;
+}
