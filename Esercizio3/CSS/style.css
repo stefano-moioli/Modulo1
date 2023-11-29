@@ -1,14 +1,16 @@
 
+body{
+    background-color: rgb(244, 164, 117);
+}
 .card{
-    height: 300px;
-    width: 200px;
+    height: 400px;
+    width: 300px;
     background-color: white;
     position: absolute;
     top: 50%;
     left: 50%;
     margin-top: -150px;
     margin-left: -100px;
-    border: solid 1px black;
 }
 
 .bowieImg{
@@ -19,29 +21,37 @@
     position: relative;
 }
 
-.saveButton{
+.saveButtonContainer{
     position: absolute;
-    top: 0px;
-    right: 0px;
-    height: 40px;
-    width: 60px;
+    top: 7px;
+    right: 7px;
+    height: 60px;
+    width: 80px;
+}
+
+.saveButton{
     background-color: red;
     border-radius: 40%;
     color: white;
     text-align: center;
-    line-height: 40px;
+    line-height: 60px;
     opacity: 0;
     border: none;
+    align-items: center;
+    width: 100%;
+    font-size: medium;
 }
 
 .listButton{
     position: absolute;
     bottom: 5px;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 5px;
     align-items: center;
     opacity: 0;
+    border: none;
 }
 
 
@@ -49,3 +59,15 @@
 .card:hover .saveButton{
     opacity: 1;
 }
+
+
+.grayBtn{
+border-radius: 40%;
+height: 40px;
+width: 50px;
+}
+
+.grayBtn:first-child{
+    width: 170px;
+}
+
