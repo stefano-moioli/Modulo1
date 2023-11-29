@@ -1,6 +1,6 @@
 
 body{
-    background-color: rgb(243, 205, 184);
+
 }
 .card{
     height: 400px;
@@ -33,7 +33,6 @@ body{
     color: white;
     text-align: center;
     opacity: 0;
-    border: none;
     align-items: center;
     font-size: 20px;
     transition: 0.3s ease-in-out;
@@ -67,6 +66,9 @@ body{
 top: 7px;
 }
 
+.card:hover{
+
+}
 
 .grayBtn{
 border-radius: 20px;
@@ -77,5 +79,9 @@ font-size: 20px;
 
 .grayBtn:first-child{
     width: 170px;
+}
+
+.fa-solid fa-arrow-up-long{
+    padding-right: 7px;
 }
 
