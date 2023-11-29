@@ -1,6 +1,6 @@
 
 body{
-    background-color: rgb(244, 164, 117);
+    background-color: rgb(243, 205, 184);
 }
 .card{
     height: 400px;
@@ -21,30 +21,28 @@ body{
     position: relative;
 }
 
-.saveButtonContainer{
+
+.saveButton{
     position: absolute;
-    top: 7px;
+    top: 0px;
     right: 7px;
     height: 60px;
     width: 80px;
-}
-
-.saveButton{
     background-color: red;
-    border-radius: 40%;
+    border-radius: 30px;
     color: white;
     text-align: center;
-    line-height: 60px;
     opacity: 0;
     border: none;
     align-items: center;
-    width: 100%;
-    font-size: medium;
+    font-size: 20px;
+    transition: 0.3s ease-in-out;
+
 }
 
 .listButton{
     position: absolute;
-    bottom: 5px;
+    bottom: 0px;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -52,6 +50,7 @@ body{
     align-items: center;
     opacity: 0;
     border: none;
+    transition: 0.3s;
 }
 
 
@@ -60,11 +59,20 @@ body{
     opacity: 1;
 }
 
+.card:hover .listButton{
+    bottom: 10px; 
+}
+
+.card:hover .saveButton{
+top: 7px;
+}
+
 
 .grayBtn{
-border-radius: 40%;
+border-radius: 20px;
 height: 40px;
 width: 50px;
+font-size: 20px;
 }
 
 .grayBtn:first-child{
