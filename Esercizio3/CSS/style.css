@@ -55,11 +55,11 @@
 }
 
 .card:hover .listButton{
-    bottom: 10px; 
+    bottom: 12px; 
 }
 
 .card:hover .saveButton{
-    top: 7px;
+    top: 12px;
 }
 
 .grayBtn{
