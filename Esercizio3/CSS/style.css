@@ -1,7 +1,3 @@
-
-body{
-
-}
 .card{
     height: 400px;
     width: 300px;
@@ -9,8 +5,7 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: -150px;
-    margin-left: -100px;
+    transform: translate(-50%, -50%);
     border-radius: 10%;
 }
 
@@ -64,9 +59,8 @@ body{
 }
 
 .card:hover .saveButton{
-top: 7px;
+    top: 7px;
 }
-
 
 .grayBtn{
 border-radius: 20px;
@@ -77,10 +71,6 @@ font-size: 20px;
 
 .grayBtn:first-child{
     width: 170px;
-}
-
-.fa-solid fa-arrow-up-long{
-    padding-right: 7px;
 }
 
 .card:hover{
