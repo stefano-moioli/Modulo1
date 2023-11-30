@@ -77,3 +77,6 @@ font-size: 20px;
     filter: brightness(60%);
 }
 
+.fa-solid.fa-arrow-up-long{
+    padding-right: 5px;
+}
